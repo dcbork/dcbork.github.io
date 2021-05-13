@@ -1,12 +1,11 @@
-var iDo = ["research", "build", "design", "test", "print", "explore"];
-function dynamicSkills(i) {
-if (iDo.length > i) {
-   setTimeout(function() {
-      document.getElementById("dynamicSkills").innerHTML = example[i];
-      textSequence(++i);
-   }, 1000); // 1 second (in milliseconds)
-} else if (iDo.length == i) { // Loop
-   textSequence(0);
-}
+var iDo = ["make", "research", "build", "design", "test", "print", "explore"];
+i = 0;
+function dynamicSkills() {
+   var title = iDo[i];
+   $("#dynamicSkills").text(title);
+   i = (i+1) % iDo.length;
 }
 dynamicSkills(0);
+
+
+setInterval(dynamicSkills, 1000);
