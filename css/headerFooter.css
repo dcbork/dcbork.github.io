@@ -1,0 +1,9 @@
+body {
+  font-family: "Space Mono", sans-serif;
+}
+footer {
+   font-size: 10px;
+}
+#headerRight {
+   text-align: right;
+}

@@ -4,29 +4,39 @@
 <head>
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space Mono">
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-<style>
-body {
-  font-family: "Space Mono", sans-serif;
-}
-</style>
+   <link rel="stylesheet" href=./css/headerFooter.css>
 </head>
 
 <header>
-   <a href="mailto:DavidConnerBorkowski@gmail.com">David <b>Conner</b> Borkowski</a>
+  <div class="row justify-content-between">
+    <div class="col">
+      <a href=index.html>D<b>C</b>B</a>
+    </div>
+    <div class="col" id="headerRight">
+      <a href="mailto:DavidConnerBorkowski@gmail.com">David <b>Conner</b> Borkowski</a>
+    </div>
+  </div>
 </header>
 
 
 <body>
-   <script type="text/javascript" src="./js/dynamicSkills.js"></script>
    <p>
-   I <span id="dynamicSkills">make</span>. <br>
+      <br>
+      I <span id="dynamicSkills">make</span>. <br>
+      <br>
    </p>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script type="text/javascript" src="./js/dynamicPage.js"></script>
 </body>
 <footer>
-   <script type="text/javascript" src="./js/footerWrite.js"></script>
+   (c) David Conner Borkowski | 2020-<span id="dynamicCopywrite">21</span>
+   <br>
+   <br>Built Using <a href="https://www.w3.org/wiki/Open_Web_Platform" class="highlight">Open Web Platform</a>:
+   <br>HTML5 | CSS3 | JavaScript
+   <br>Bootstrap | jQuery
+   <br>
 </footer>
 </html>
