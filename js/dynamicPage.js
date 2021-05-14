@@ -1,4 +1,4 @@
-var iDo = ["make", "research", "build", "design", "test", "print", "explore"];
+var iDo = ["make", "research", "build", "design", "test", "print", "study", "explore"];
 i = 0;
 var date = new Date();
 
