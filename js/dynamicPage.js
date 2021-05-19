@@ -1,4 +1,4 @@
-var iDo = ["make", "research", "build", "design", "test", "print", "study", "explore"];
+var iDo = ["make", "research", "build", "design", "test", "print", "study", "explore", "do"];
 var iContact= ["Reach", "Talk to", "Work with", "Ask"]
 var palette = ['#3993DD', '#E63946', '#688E26','#FAA613'];
 iD = 0;
