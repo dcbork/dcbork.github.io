@@ -2,6 +2,7 @@ body {
   font-family: "Space Mono", monospace;
   color: #F5F5F5;
   background-color: #353535;
+  padding: 1em;
 }
 
 strong {

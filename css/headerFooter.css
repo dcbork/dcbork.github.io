@@ -1,3 +1,7 @@
 footer {
    font-size: 10px;
 }
+
+#topRight {
+   text-align: right;
+}
