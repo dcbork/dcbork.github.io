@@ -1,4 +1,9 @@
 body {
   font-family: "Space Mono", monospace;
-  background-color: WhiteSmoke;
+  color: #F5F5F5;
+  background-color: #353535;
+}
+
+strong {
+   color: #F5F5F5;
 }
