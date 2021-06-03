@@ -1,6 +1,22 @@
 body {
-  font-family: "Space Mono", monospace;
-  color: #F5F5F5;
-  background-color: #353535;
-  padding: 1em;
+   font-family: "Space Mono", monospace;
+   color: #A0A0A0;
+   background-color: #353535;
+   padding: 1em;
+}
+
+a {
+   color:#F5F5F5;
+}
+a:link {
+   color:#F5F5F5;
+}
+a:visited {
+   color:#F5F5F5;
+}
+a:hover {
+   color:#F5F5F5;
+}
+a:active {
+   color:#F5F5F5;
 }
