@@ -5,18 +5,44 @@ body {
    padding: 1em;
 }
 
+
+
 a {
-   color:#F5F5F5;
+   color:#F0F0F0;
 }
 a:link {
-   color:#F5F5F5;
+   color:#F0F0F0;
 }
 a:visited {
-   color:#F5F5F5;
+   color:#C0C0C0;
 }
 a:hover {
-   color:#F5F5F5;
+   color:#F0F0F0;
 }
 a:active {
-   color:#F5F5F5;
+   color:#F0F0F0;
 }
+
+img  {
+   width: 30vw;
+   height: 0px;
+   display: block;
+}
+
+.image, .imgBar {
+   display: block;
+   margin: 0px;
+   padding: 0px;
+   border: 0px;
+   transition: height .25s;
+}
+
+/*.accordion:hover .imgBar:hover .image {
+    height: 30vw;
+}
+
+.image,
+.accordion:hover .image {
+    height: 10px;
+    transition: height .25s;
+}*/

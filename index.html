@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,65 +7,80 @@
    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Space Mono">
    <link rel="stylesheet" href=./css/main.css>
    <link rel="stylesheet" href=./css/headerFooter.css>
-   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
 </head>
 
-<header>
-  <div class="row justify-content-between">
-    <div class="col">
-      <a id="pop0" href=index.html>D<strong id="pop1">C</strong>B</a>
-    </div>
-    <div class="col" id="topRight">
-      <a id="pop2" href="mailto:DavidConnerBorkowski@gmail.com" id="email">David<strong id="pop3">Conner</strong>Borkowski@gmail.com</a> <! add resume>
-    </div>
-  </div>
-</header>
-
-
 <body>
-   <div class="row justify-content-between">
-      <div class="col">
-         <p>
+   <header>
+     <div class="row justify-content-around">
+       <div class="col">
+         <a id="pop0" href=index.html>D<strong id="pop1">C</strong>B</a>
+       </div>
+       <div class="col" id="topRight">
+         <a id="pop2" href="mailto:DavidConnerBorkowski@gmail.com">David<strong id="pop3">Conner</strong>Borkowski@gmail.com</a> <!-- add resume-->
+       </div>
+     </div>
+   </header>
+   <div class="container-fluid">
+      <div class="row row-cols-2 justify-content-between">
+         <div class="col">
+            <p class="text-end">
+               <br>
+               <strong id="pop4">I <span id="dynamicSkills">make</span>.</strong> <br>
+               I am practicing and devloping varied skills to work on interdisiplinary projects with diverse teams.
+               <br>
+            </p>
+            <p class="text-end">
+               <strong id="pop5">I research:<br></strong>
+               <span class="imageAction MxR">Mixed Reality at <a id="pop6" href="http://www.mxrealitylab.com">MxR</a></span><br>
+               <span class="imageAction ARoS">Computer Vision at <a id="pop7" href="https://research.ece.ncsu.edu/aros/">ARoS</a></span><br>
+            </p>
+            <p class="text-end">
+               <strong id="pop8">I am interested in:<br></strong>
+               <span class="imageAction STEAM">Engineering+Design+Science+Art</span><br>
+               <span class="imageAction XR">XR</span><br>
+               <span class="imageAction Printing">3D Printing</span><br>
+               <span class="imageAction CompVis">Computer Vision</span><br>
+               <span class="imageAction Education">Education</span><br>
+               <span class="imageAction Maker">Maker Culture</span><br>
+               <span class="imageAction OpenSource">Open Source Technology</span><br>
+               <span class="imageAction Robotics">Robotics</span><br>
+               <span class="imageAction Light">Light+Color</span><br>
+               <span class="imageAction Climbing">Climbing</span><br>
+            </p>
+            <p class="text-end">
+               <a id="pop9" href="mailto:DavidConnerBorkowski@gmail.com"><span id="dynamicContact">Reach</span> me.</a>
+            </p>
             <br>
-            <strong id="pop4">I <span id="dynamicSkills">make</span>.</strong> <br>
-            I am practicing and devloping varied skills to<br>
-            work on interdisiplinary projects with diverse teams.
-            <br>
-         </p>
-
-         <p>
-            <strong id="pop5">I research:<br></strong>
-            <a href="projects/arduinoUnity.html">Mixed Reality</a> at <a id="pop6" href="http://www.mxrealitylab.com">MxR</a><br>
-            <a href="projects/plantSegmentation.html">Computer Vision</a> at <a id="pop7" href="https://research.ece.ncsu.edu/aros/">ARoS</a><br>
-         </p>
-         <p>
-            <strong id="pop8">I am interested in:<br></strong>
-            Engineering+Design+Science+Art<br>
-            XR<br>
-            <a href="projects/printing.html">3D Printing</a><br>
-            <a href="projects/monkeyClassification.html">Computer Vision</a><br>
-            Education<br>
-            Maker Culture<br>
-            Open Source Technology<br>
-            <a href="projects/embeddedSysCar.html">Robotics</a><br>
-            <a href="projects/light.html">Light+Color</a><br>
-            <a href="projects/climbing.html">Climbing</a><br>
-         </p>
-
-         <p>
-            <a id="pop9" href="mailto:DavidConnerBorkowski@gmail.com"><span id="dynamicContact">Reach</span> me.<a/>
-         </p>
-         <br>
+            </div>
+         <div class="col align-self-center">
+            <div class="accordion">
+               <div class="imgBar">
+                  <a href="projects/printing.html"><img src="images/3dPrint.png" class="image Printing STEAM Maker OpenSource"></a>
+               </div>
+               <div class="imgBar">
+                  <a href="projects/embeddedSysCar.html"><img src="images/embeddedCar.png" class="image Robotics"></a>
+               </div>
+               <div class="imgBar">
+                  <a href="projects/arduinoUnity.html"><img src="images/loomia.png" class="image MxR XR Maker OpenSource"></a>
+               </div>
+               <div class="imgBar">
+                  <a href="projects/monkeySee.html"><img src="images/monkeySee.png" class="image CompVis"></a>
+               </div>
+            </div>
+         </div>
       </div>
+   </div>
+
+   <footer>
+      (c) 2020-<span id="dynamicCopywrite">2020</span> David Conner Borkowski
+      <br>HTML5 | CSS3 | JavaScript | Bootstrap | jQuery
+      <br>
+   </footer>
    </div>
 
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
    <script type="text/javascript" src="./js/dynamicPage.js"></script>
 </body>
-<footer>
-   (c) 2020-<span id="dynamicCopywrite">2020</span> David Conner Borkowski
-   <br>HTML5 | CSS3 | JavaScript | Bootstrap | jQuery
-   <br>
-</footer>
 </html>
