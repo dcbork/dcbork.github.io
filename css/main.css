@@ -5,20 +5,22 @@ body {
    padding: 1em;
 }
 
-
-
 a {
    color:#F0F0F0;
 }
+
 a:link {
    color:#F0F0F0;
 }
+
 a:visited {
    color:#C0C0C0;
 }
+
 a:hover {
    color:#F0F0F0;
 }
+
 a:active {
    color:#F0F0F0;
 }
@@ -36,13 +38,3 @@ img  {
    border: 0px;
    transition: height .25s;
 }
-
-/*.accordion:hover .imgBar:hover .image {
-    height: 30vw;
-}
-
-.image,
-.accordion:hover .image {
-    height: 10px;
-    transition: height .25s;
-}*/
