@@ -8,14 +8,6 @@ var date = new Date();
 
 function dynamicSkills() {
    var title = iDo[iD];
-   tempColor = $("#dynamicSkills").css("color");
-   console.log(tempColor);
-   var newPalette = palette;
-   const index = newPalette.indexOf(tempColor);
-   if (index > -1) {
-      newPalette.splice(index, 1);
-   }
-   console.log(newPalette);
    var randomColor = newPalette[Math.floor(Math.random() * newPalette.length)];
    $("#dynamicSkills").text(title);
    $("#dynamicSkills").css("color", randomColor);
@@ -58,62 +50,62 @@ $(".imageAction").mouseenter(function(){
    document.getElementsByTagName("head")[0].appendChild(style);
 });
 
-$(".MxR").mouseenter(function(){
-   $(".image").css("height", "0px");
-   $(".MxR").css("height", "30vw");
+$(".MxRHead").hover(function(){
+      $(".image").css("height", "0px");
+      $(".MxR").css("height", "30vw");
 });
 
-$(".ARoS").mouseenter(function(){
+$(".ARoSHead").mouseenter(function(){
    $(".image").css("height", "0px");
    $(".ARoS").css("height", "30vw");
 });
 
-$(".STEAM").mouseenter(function(){
+$(".STEAMHead").mouseenter(function(){
    $(".image").css("height", "0px");
    $(".STEAM").css("height", "30vw");
 });
 
-$(".XR").mouseenter(function(){
+$(".XRHead").mouseenter(function(){
    $(".image").css("height", "0px");
    $(".XR").css("height", "30vw");
 });
 
-$(".Printing").mouseenter(function(){
+$(".PrintingHead").mouseenter(function(){
    $(".image").css("height", "0px");
    $(".Printing").css("height", "30vw");
 });
 
-$(".CompVis").mouseenter(function(){
+$(".CompVisHead").mouseenter(function(){
    $(".image").css("height", "0px");
    $(".CompVis").css("height", "30vw");
 });
 
-$(".Education").mouseenter(function(){
+$(".EducationHead").mouseenter(function(){
    $(".image").css("height", "0px");
    $(".Education").css("height", "30vw");
 });
 
-$(".Maker").mouseenter(function(){
+$(".MakerHead").mouseenter(function(){
    $(".image").css("height", "0px");
    $(".Maker").css("height", "30vw");
 });
 
-$(".OpenSource").mouseenter(function(){
+$(".OpenSourceHead").mouseenter(function(){
    $(".image").css("height", "0px");
    $(".OpenSource").css("height", "30vw");
 });
 
-$(".Robotics").mouseenter(function(){
+$(".RoboticsHead").mouseenter(function(){
    $(".image").css("height", "0px");
    $(".Robotics").css("height", "30vw");
 });
 
-$(".Light").mouseenter(function(){
+$(".LightHead").mouseenter(function(){
    $(".image").css("height", "0px");
    $(".Light").css("height", "30vw");
 });
 
-$(".Climbing").mouseenter(function(){
+$(".ClimbingHead").mouseenter(function(){
    $(".image").css("height", "0px");
    $(".Climbing").css("height", "30vw");
 });
