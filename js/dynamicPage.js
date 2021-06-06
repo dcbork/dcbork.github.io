@@ -8,7 +8,7 @@ var date = new Date();
 
 function dynamicSkills() {
    var title = iDo[iD];
-   var randomColor = newPalette[Math.floor(Math.random() * newPalette.length)];
+   var randomColor = palette[Math.floor(Math.random() * palette.length)];
    $("#dynamicSkills").text(title);
    $("#dynamicSkills").css("color", randomColor);
    iD = (iD+1) % iDo.length;
