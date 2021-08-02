@@ -1,3 +1,7 @@
+header{
+   padding-bottom: 1em;
+}
+
 footer {
    font-size: 10px;
    position: fixed;
