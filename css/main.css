@@ -46,13 +46,11 @@ img  {
    margin: 0px;
    padding: 0px;
    border: 0px;
-   transition: height .3s;
-   transition: width .3s;
+   transition: all .3s;
 }
 
 .accordion {
-   max-height: 80vh;
    display: flex;
    flex-wrap: wrap;
-   transition: flex-wrap .3s;
+   transition: all .3s;
 }
