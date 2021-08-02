@@ -26,14 +26,11 @@ a:active {
 }
 
 img  {
-   width: 30vw;
-   height: 0px;
+   width: 15vw;
    display: block;
 }
 
 .imgBar{
-   position: relative;
-   text-align: center;
 }
 
 .centered {
@@ -49,5 +46,13 @@ img  {
    margin: 0px;
    padding: 0px;
    border: 0px;
-   transition: height .25s;
+   transition: height .3s;
+   transition: width .3s;
+}
+
+.accordion {
+   max-height: 80vh;
+   display: flex;
+   flex-wrap: wrap;
+   transition: flex-wrap .3s;
 }
