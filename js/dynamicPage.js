@@ -29,7 +29,7 @@ function dynamicCopywrite() {
 
 function randomHighlight() {
    var i;
-   for (i = 0; i <= 9; i++) {
+   for (i = 0; i <= 17; i++) {
       var randomColor = palette[Math.floor(Math.random() * palette.length)];
       $("#pop"+i.toString()).css("color", randomColor);
    }
@@ -38,6 +38,20 @@ function randomHighlight() {
 $(".imageAction").mouseenter(function(){
    var randomColor = palette[Math.floor(Math.random() * palette.length)];
    var css = ".imageAction:hover { color:" + randomColor + " }";
+   var style = document.createElement("style");
+
+   if (style.styleSheet) {
+       style.styleSheet.cssText = css;
+   } else {
+       style.appendChild(document.createTextNode(css));
+   }
+
+   document.getElementsByTagName("head")[0].appendChild(style);
+});
+
+$(".fa").mouseenter(function(){
+   var randomColor = palette[Math.floor(Math.random() * palette.length)];
+   var css = ".fa:hover { color:" + randomColor + " }";
    var style = document.createElement("style");
 
    if (style.styleSheet) {

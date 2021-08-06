@@ -31,14 +31,26 @@ img  {
 }
 
 .imgBar{
+   position: relative;
+}
+
+.imgBar:hover .image {
+  opacity: 0.3;
+}
+
+.imgBar:hover .centered {
+  opacity: 1;
 }
 
 .centered {
-  position: absolute;
-  color: transparent;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+   transition: .3s ease;
+   opacity: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   text-align: center;
 }
 
 .image, .imgBar {
@@ -53,4 +65,21 @@ img  {
    display: flex;
    flex-wrap: wrap;
    transition: all .3s;
+}
+
+.climbing{
+   height:15em;
+   width:auto;
+   padding:0;
+}
+
+.fa {
+   padding: 0;
+   padding-right: 1em;
+   font-size: 1em;
+   width: 1em;
+   text-align: center;
+   text-decoration: none;
+   background: transparent;
+   color: white;
 }
