@@ -29,7 +29,7 @@ function dynamicCopywrite() {
 
 function randomHighlight() {
    var i;
-   for (i = 0; i <= 17; i++) {
+   for (i = 0; i <= 20; i++) {
       var randomColor = palette[Math.floor(Math.random() * palette.length)];
       $("#pop"+i.toString()).css("color", randomColor);
    }
@@ -61,6 +61,20 @@ $(".fa").mouseenter(function(){
    }
 
    document.getElementsByTagName("head")[0].appendChild(style);
+});
+
+$(".AllHead").hover(function(){
+   $(".image").css("height", "0px");
+   $(".image").css("width", "0px");
+   $(".All").css("height", "15vw");
+   $(".All").css("width", "15vw");
+});
+
+$(".myHead").hover(function(){
+   $(".image").css("height", "0px");
+   $(".image").css("width", "0px");
+   $(".Me").css("height", "15vw");
+   $(".Me").css("width", "15vw");
 });
 
 $(".MxRHead").hover(function(){

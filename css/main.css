@@ -6,23 +6,23 @@ body {
 }
 
 a {
-   color:#F0F0F0;
+   color:#A0A0A0;
 }
 
 a:link {
-   color:#F0F0F0;
+   color:#A0A0A0;
 }
 
 a:visited {
-   color:#C0C0C0;
+   color:#A0A0A0;
 }
 
 a:hover {
-   color:#F0F0F0;
+   color:#A0A0A0;
 }
 
 a:active {
-   color:#F0F0F0;
+   color:#A0A0A0;
 }
 
 img  {
