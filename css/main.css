@@ -1,28 +1,28 @@
 body {
    font-family: "Space Mono", monospace;
-   color: #A0A0A0;
+   color: #666666;
    background-color: #353535;
    padding: 1em;
 }
 
 a {
-   color:#A0A0A0;
+   color:#666666;
 }
 
 a:link {
-   color:#A0A0A0;
+   color:#666666;
 }
 
 a:visited {
-   color:#A0A0A0;
+   color:#666666;
 }
 
 a:hover {
-   color:#A0A0A0;
+   color:#666666;
 }
 
 a:active {
-   color:#A0A0A0;
+   color:#666666;
 }
 
 img  {
