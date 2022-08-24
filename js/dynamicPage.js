@@ -1,4 +1,4 @@
-var iDo = ["make", "research", "build", "design", "test", "print", "study", "explore", "do"];
+var iDo = ["design", "learn", "photograph", "explore", "teach", "climb"];
 var iContact= ["Reach", "Talk to", "Work with", "Ask"]
 var palette = ["#3993DD", "#E63946", "#688E26","#FAA613"];
 var tempColor;
@@ -159,6 +159,12 @@ $(".ClimbingHead").mouseenter(function(){
    $(".image").css("width", "0px");
    $(".Climbing").css("height", "15vw");
    $(".Climbing").css("width", "15vw");
+});
+$(".DesignHead").mouseenter(function(){
+   $(".image").css("height", "0px");
+   $(".image").css("width", "0px");
+   $(".Design").css("height", "15vw");
+   $(".Design").css("width", "15vw");
 });
 
 dynamicSkills();
