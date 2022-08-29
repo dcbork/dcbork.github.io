@@ -29,7 +29,7 @@ function dynamicCopywrite() {
 
 function randomHighlight() {
    var i;
-   for (i = 0; i <= 21; i++) {
+   for (i = 0; i <= 25; i++) {
       var randomColor = palette[Math.floor(Math.random() * palette.length)];
       $("#pop"+i.toString()).css("color", randomColor);
    }
